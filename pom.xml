@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.4</version>
+        <version>2.6.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cydeo</groupId>
-    <artifactId>ticketing-mvc-project</artifactId>
+    <artifactId>ticketing-project-mvc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ticketing-mvc-project</name>
-    <description>ticketing-mvc-project</description>
+    <name>ticketing-project-mvc</name>
+    <description>ticketing-project-mvc</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -25,7 +25,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
